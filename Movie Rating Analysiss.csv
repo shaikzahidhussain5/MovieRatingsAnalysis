@@ -1,0 +1,25 @@
+movieId,title,genres,userId,rating,timestamp
+1,Toy Story,Adventure|Animation|Children,1,4,94603456
+1,Toy Story,Adventure|Animation|Children,2,5,94603457
+1,Toy Story,Adventure|Animation|Children,3,4,94603458
+2,Jurassic Park,Action|Adventure|Thriller,1,5,94603459
+2,Jurassic Park,Action|Adventure|Thriller,2,4,94603460
+2,Jurassic Park,Action|Adventure|Thriller,3,5,94603461
+3,The Lion King,Animation|Children|Drama,1,5,94603462
+3,The Lion King,Animation|Children|Drama,2,4,94603463
+3,The Lion King,Animation|Children|Drama,3,5,94603464
+4,The Shawshank Redemption,Drama,1,5,94603465
+4,The Shawshank Redemption,Drama,2,5,94603466
+4,The Shawshank Redemption,Drama,3,5,94603467
+5,The Godfather,Crime|Drama,1,5,94603468
+5,The Godfather,Crime|Drama,2,5,94603469
+5,The Godfather,Crime|Drama,3,5,94603470
+6,The Dark Knight,Action|Thriller,1,5,94603471
+6,The Dark Knight,Action|Thriller,2,4,94603472
+6,The Dark Knight,Action|Thriller,3,5,94603473
+7,12 Angry Men,Drama,1,5,94603474
+7,12 Angry Men,Drama,2,4,94603475
+7,12 Angry Men,Drama,3,5,94603476
+8,Schindler's List,Drama|History,1,5,94603477
+8,Schindler's List,Drama|History,2,4,94603478
+8,Schindler's List,Drama|History,3,5,94603479

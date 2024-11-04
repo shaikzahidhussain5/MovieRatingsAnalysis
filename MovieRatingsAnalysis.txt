@@ -1,0 +1,24 @@
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, avg, count
+
+spark = SparkSession.builder \
+    .appName("MovieRatingsAnalysis") \
+    .getOrCreate()
+
+movies_df = spark.read.csv("/FileStore/tables/Movie_Rating_Analysiss.csv",header=True,inferSchema=True)
+
+movies_df.show(5)
+print(movies_df.columns)
+
+avg_rating_df = movies_df.groupBy("title") \
+    .agg(avg("rating").alias("AverageRating")) \
+    .orderBy(col("AverageRating").desc())
+
+avg_rating_df.show()
+
+ratings_count_df = movies_df.groupBy("title") \
+    .agg(count("rating").alias("TotalRatings")) \
+    .orderBy(col("TotalRatings").desc())
+
+ratings_count_df.show()
+
